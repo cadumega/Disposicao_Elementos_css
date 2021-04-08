@@ -1,0 +1,57 @@
+/* Estilização apenas de seletores de classes e classes modificadores (específicas)*/
+
+.body {
+  padding-top: 125px ;
+}
+.header {
+  position: fixed;
+  top: 0;
+  /* opacity: ; */
+  padding: 20px 40px;                      /* top bot 20px e esq dir 40px */
+  border-bottom: 2px solid #5f27cd;
+  bottom: 80%;
+  margin-bottom: 30px;
+}
+
+.header-logo {
+  height: 100px;
+}
+
+.banner {
+  position: fixed;
+  right: 0;
+  top: 50%;            /* pega a altura do browse de referência para centralizar */
+  transform: translateY(-50%);
+  right: 5%;           /* com % fica + responsivo */
+  background-color: #5f27cd;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+}
+
+.button {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  display: block;
+  height: 40px;
+  opacity: 0.95;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #1dd1a1;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+p{
+  margin-bottom: 20px;
+}
+
+/* Fixed se orienta com o browse, utilizamos para header fixo ou botão fixo. */

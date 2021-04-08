@@ -1,0 +1,28 @@
+/* Estilização das classes */
+
+.example {
+  color: white;
+  text-align-last: justify;
+}
+
+.example-item {
+  display: inline-block;   /* Conseguimos ter largXaltura e deixar os elements na mesma linha */
+  width: 25%;
+  height: 150px;
+}                       
+.example-item_first {
+  background-color: #FAA116;
+}
+
+.example-item_second {
+  background-color: #57C7C3;
+}
+
+.example-item_third {
+  background-color: #3B97D3;
+}
+
+p {                                                         /* criação do seletor */
+  text-align: right;
+}
+/* Juntar o inline com o block , display inline block entrega o comportamento de palavra */

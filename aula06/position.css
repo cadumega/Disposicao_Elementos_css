@@ -1,0 +1,45 @@
+/* Estilização apenas de seletores de classes e classes modificadores (específicas)*/
+
+.elementExample {     
+  width:200px;
+  height: 200px;
+  line-height: 200px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+}          
+
+.elementExample_first {         
+  background-color: #6c5ce7;
+  position: absolute;        /* referência é a tela */
+  right: 0;                   /* position padrão é static,looogo... position: */
+  /* opacity: 0; */
+}
+
+.elementExample_second {
+  background-color: #00b894;
+  position: absolute;           /* elemento logo abaixo sobe, devido ao novo contexto */
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);    /*=  translate(-50%, -50%) */
+  top: 50%;  
+}                    /* eixo x horizontal, valores positos move para lado direito */ /* para ser automático, usamos % , funcionado um pouco diferente do left com absolut, com translate ele pega do elemento, metade da largura do elemento, se for exixo y pega metade da altura com essa propriedade */ /* TRANSLATE CENTRALIZA MT BEM com X E Y!!! */
+
+.elementExample_last {
+  background-color: #d63031;
+  position: absolute;   /* 1.1 */
+}
+
+
+.elementExample-internal {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background-color: #00cec9;
+
+  position: relative;  /*absolute não irá respeitar o elemento dad dele, só se eu colocar 1.0 */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

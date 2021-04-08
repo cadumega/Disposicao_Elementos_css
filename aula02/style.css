@@ -1,0 +1,31 @@
+/* Estilização das classes */
+.example {
+  color: white;
+  text-align: center;
+}
+
+.example-item {           /* tag li tem como padrão o display:block; */
+  display: block;                     /* deixar + declarativo */
+  width: 33.33%;
+  height: 150px;
+}                       
+
+.example-item_first {
+  background-color: #FAA116;
+}
+
+.example-item_second {
+  background-color: #57C7C3;
+  margin-left: auto;    
+}      /* auto,toda margem da esq é preenchida, se deslocando para a direita */     /* margin-left: 66.667%; */  /* para funcionar precisa de display block e uma largura */
+
+.example-item_third {
+  background-color: #3B97D3;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Podemos usar % para alocar ao centro ou margin auto que pegara metade do right */
+
+/* Display block não consigo ter elementos do lado, só com gambiarra;
+Conseguimos definir largura e altura com o block;
+Jogar elementos para esquerda ou para direito, e usando auto para centralizar com left e right tb*/

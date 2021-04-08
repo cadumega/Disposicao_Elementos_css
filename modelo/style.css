@@ -1,0 +1,17 @@
+/* Estilização das classes */
+
+.example-item {
+  width: 33.33%;
+  height: 150px;
+}                       
+.example-item_first {
+  background-color: #FAA116;
+}
+
+.example-item_second {
+  background-color: #57C7C3;
+}
+
+.example-item_third {
+  background-color: #3B97D3;
+}

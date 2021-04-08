@@ -1,0 +1,42 @@
+/* Estilização apenas de seletores de classes e classes modificadores (específicas)*/
+
+.elementExample {
+  width:300px;
+  height: 200px;
+  line-height: 200px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}          
+
+.elementExample_first {
+  background-color: #8E44AD;
+  float:right; 
+  /* opacity: 0; */
+
+}
+
+.elementExample_last {
+  background-color: #C0392B;
+  /* color: red;              Manteve o conteúdo de texto ,devido ao float */
+  float: right;
+}
+
+article {
+  background-color: violet;
+  overflow: hidden;   /* esconder qq element que vaza alt ou larg do pai,recupero altu e larg */
+}
+
+p{         
+  /* clear: both;      */
+  /* float: left;   */
+}
+
+
+/* Float posicionamento um elemento para fora, e o elemento abaixo se desloca para a posição do elemento deslocado. */
+
+/* Flutua a esquerda roxo, flutua a esquerda vermelho como existe já o roxo ficará do lado, o paragrafo foi parar atras dos dois elementos */
+
+/*  clear: both; verifica se tem elements flutuando,limpa o contexto e fica embaixo dos elements */
+
+/* overflow: hidden; acerto altura e largura do contexto */
