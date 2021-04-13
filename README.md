@@ -8,4 +8,4 @@
  Aula05: position: relative; e position static(padrão)
  Aula06: position: absolute;
  Aula07: position: fixed;
- Aula08: circle background
+ Flexbox e Grid: estudos de posicionamentos de gridlayout e flexbox
