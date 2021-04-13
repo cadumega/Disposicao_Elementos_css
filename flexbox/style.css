@@ -19,7 +19,7 @@ body {
 
 h1 {
   text-align: center;
-  margin-top: 70px;
+  margin-top: 120px;
   color: #1d1e20;
 }
 
@@ -33,28 +33,44 @@ img {
   display: block;
 }
 
+.logo {
+  text-align: center;
+  width: 65px;
+  height: 20px;
+}
 .header {
   background: #1d1e20;
-  display: flex; 
-  flex-wrap: wrap;             /* tela menor, a parte do flexbox vai para baixo */     
+  position: fixed;
+  width: 100%;
+  top: 0;
+  /* display: flex;
+  flex-wrap: wrap;             /* tela menor, a parte do flexbox vai para baixo */    
   justify-content: space-between;    /* espaço entre os itens */
-  align-items: center;              /* alinhar ao centro */
   padding: 20px;          /* espaçar de um lado e de outro */
+  height: 60px;
 }
 
 .menu{
-  display: flex;        /* para ficar um ao lado do outro */
+  padding: 10px;
+  margin-right: 30px;
+  position: fixed;
+  right: 0;
+  top: 10%;
+  margin-top: -2.5em;        /* para ficar um ao lado do outro */
 }
 
 .menu li {
   margin-left: 15px; 
+  display: inline-block;
 }
 
 .menu li a {
-  display: block;
+  display: inline-block;
   padding: 10px;
-  background: tomato;
+  background: darkorchid;
   border-radius: 20px;
+  width: 80px;
+  text-align: center;
 }
 
 
