@@ -10,3 +10,6 @@
 
 /* questões de alinhamento o mais fácil possível */
 
+/* Divisões de Coluna e linha, utilizar grid layout, ex.globocom.. */
+
+/* Alguns sites do governos o maior acesso é feito pelo IE , verificar os acessos dos usuários para criar com a melhor ferramenta possível, pois o grid não aceita no IE. */
