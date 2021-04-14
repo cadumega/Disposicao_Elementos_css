@@ -1,4 +1,4 @@
-# DIsposição_Elementos_css
+# Disposição_Elementos_css
  Testes e usos das propriedades de posicionamento do CSS.
 
 * Aula01: display: inline;
@@ -9,3 +9,5 @@
 * Aula06: position: absolute;
 * Aula07: position: fixed;
 * Flexbox e Grid: estudos de posicionamentos de gridlayout e flexbox
+
+https://cadumega.github.io/Disposicao_Elementos_css/
