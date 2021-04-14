@@ -38,6 +38,7 @@ img {
   text-align: center;
   width: 65px;
   height: 20px;
+  filter: invert(80%);
 }
 .header {
   background: #1d1e20;
