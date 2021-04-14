@@ -1,4 +1,4 @@
-# DIsposição_Elementos_css
+# Disposição_Elementos_css
  Testes e usos das propriedades de posicionamento do CSS.
 
 * Aula01: display: inline;
