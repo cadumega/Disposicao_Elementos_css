@@ -21,6 +21,7 @@ h1 {
   text-align: center;
   margin-top: 120px;
   color: #1d1e20;
+  margin-bottom: -5px;
 }
 
 h2 {
@@ -59,6 +60,15 @@ img {
   margin-top: -2.5em;        /* para ficar um ao lado do outro */
 }
 
+.line:after {
+	content: "";
+	display: block;
+
+	width: 60px;
+	height: 3px;
+	background: darkorchid;
+	margin: 10px auto;
+}
 .menu li {
   margin-left: 15px; 
   display: inline-block;
